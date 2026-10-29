@@ -1,0 +1,25 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "zotero-cloud",
+  "version": "0.1.0",
+  "description": "Rechercher, vérifier et enrichir une bibliothèque Zotero Cloud personnelle sans Zotero Desktop.",
+  "author": { "name": "Johann Chaulet" },
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "apps": "./.app.json",
+      "interface": {
+        "displayName": "Zotero Cloud",
+        "shortDescription": "Bibliothèque Zotero Cloud",
+        "longDescription": "Recherche, dédoublonnage, enrichissement, tags, collections et notes de contexte scientifique. Aucune suppression.",
+        "developerName": "Johann Chaulet",
+        "category": "Productivity",
+        "capabilities": ["Read", "Write"],
+        "defaultPrompt": [
+          "Cherche cette référence dans ma bibliothèque avant tout ajout.",
+          "Ajoute une note expliquant pourquoi cette lecture m’a été recommandée, à partir de la source fournie."
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "renderSleepMinutes": 15,
+  "accessTokenHours": 8,
+  "consentMinutes": 15,
+  "ownerPasswordMin": 20,
+  "signingSecretMin": 32,
+  "betaDeployUrl": "https://render.com/deploy?repo=https%3A%2F%2Fgithub.com%2Fpapoututu%2FChatGPTtoZotero_community"
+}

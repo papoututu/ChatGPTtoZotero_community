@@ -1,0 +1,16 @@
+{
+  "id": "feedback",
+  "outputs": {
+    "en": ".github/ISSUE_TEMPLATE/feedback.md",
+    "fr": ".github/ISSUE_TEMPLATE/retour-testeur.md"
+  },
+  "sections": [
+    {
+      "id": "content",
+      "en": "---\nname: Installation or usage feedback\nabout: Describe a problem without disclosing personal data\n---\n\n**Guide step:**\n\n**ChatGPT app, browser and operating system:**\n\n**Expected / actual result:**\n\n**Anonymized error message:**\n\n**What required too many manual steps:**\n\nDo not attach an API key, password, full OAuth URL, transcript or confidential item. For a vulnerability, read SECURITY.md.",
+      "fr": "---\nname: Retour d’installation ou d’utilisation\nabout: Décrire une difficulté sans transmettre de données personnelles\n---\n\n**Étape du guide :**\n\n**Application ChatGPT, navigateur et système :**\n\n**Résultat attendu / obtenu :**\n\n**Message d’erreur anonymisé :**\n\n**Ce qui a demandé trop de manipulations :**\n\nNe joins aucune clé API, mot de passe, URL OAuth complète, transcription ou notice confidentielle. Pour une vulnérabilité, consulte SECURITY.md.",
+      "reviewedPair": "7e73280403929381a254c9c23fb23fad3a5a0d8fd531f4ff2f19a7346af4c9ef"
+    }
+  ],
+  "navigation": false
+}

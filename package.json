@@ -1,0 +1,34 @@
+{
+  "name": "zotero-cloud-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env --watch src/server.ts",
+    "start": "node --env-file-if-exists=.env src/server.ts",
+    "test": "node test/library.test.ts && node test/config.test.ts && node test/distribution.test.ts && node test/docs.test.ts && node test/audit-public.test.ts && node test/http.test.ts",
+    "check": "tsc --noEmit && npm run docs:check",
+    "setup": "node scripts/setup.ts",
+    "live:read": "node --env-file=.env scripts/live-read.ts",
+    "doctor": "node scripts/doctor.ts",
+    "package:plugin": "node scripts/package-plugin.ts",
+    "docs:build": "node scripts/docs.ts",
+    "docs:check": "node scripts/docs.ts --check",
+    "audit:public": "node scripts/audit-public.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/node": "^2.1.2",
+    "@modelcontextprotocol/server": "^2.4.0",
+    "jose": "^6.2.13",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "prettier": "^3.9.10",
+    "typescript": "^7.0.2"
+  },
+  "license": "MIT"
+}

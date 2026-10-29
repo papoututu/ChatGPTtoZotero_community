@@ -1,0 +1,15 @@
+{
+  "id": "security",
+  "outputs": {
+    "en": "SECURITY.md",
+    "fr": "SECURITY.fr.md"
+  },
+  "sections": [
+    {
+      "id": "content",
+      "en": "# Reporting a security issue\n\nNever publish a key, password, library content or consent URL in an issue.\n\nIf private GitHub vulnerability reporting is available for the repository, use it. Otherwise, open an issue stating only that you need a private reporting channel, without publicly describing an exploit or its secrets. The maintainer must confirm a private channel before details are sent.\n\nIf a key is exposed, revoke it in Zotero first. The connector password and signing secret can be changed in Render; changing the signing secret invalidates MCP tokens. This server is not designed as a multiuser service.",
+      "fr": "# Signaler un problème de sécurité\n\nNe publie jamais de clé, mot de passe, contenu de bibliothèque ou URL de consentement dans un ticket.\n\nSi le dépôt propose le signalement privé des vulnérabilités GitHub, utilise cette fonction. Sinon, ouvre un ticket indiquant seulement que tu souhaites un canal privé de signalement, sans décrire publiquement une exploitation ni ses secrets. Le mainteneur doit confirmer un canal privé avant l’envoi des détails.\n\nEn cas de clé exposée, commence par la révoquer dans Zotero. Le mot de passe du connecteur et le secret de signature se changent dans Render ; changer le secret de signature invalide les tokens MCP. Le serveur n’est pas conçu comme un service multiutilisateur.",
+      "reviewedPair": "7825c82f2f6136a398fbe3a321d047c636a39d6085f86c5542a1354679e160e9"
+    }
+  ]
+}

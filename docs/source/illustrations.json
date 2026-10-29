@@ -1,0 +1,62 @@
+{
+  "render": {
+    "rows": [
+      "ZOTERO_USER_ID",
+      "ZOTERO_API_KEY",
+      "OWNER_PASSWORD",
+      "WRITE_ENABLED"
+    ],
+    "en": {
+      "title": "Render: four settings to enter",
+      "example": "Diagram only — fictitious values, no personal data",
+      "values": [
+        "1234567 (example)",
+        "•••••••• (your dedicated key)",
+        "•••••••• ({{ownerPasswordMin}} characters min.)",
+        "false → true after validation"
+      ],
+      "note": "WRITE_ENABLED is a text field. Never share secret values."
+    },
+    "fr": {
+      "title": "Render : les quatre champs à renseigner",
+      "example": "Exemple schématique — valeurs fictives, aucune donnée personnelle",
+      "values": [
+        "1234567 (exemple)",
+        "•••••••• (ta clé dédiée)",
+        "•••••••• ({{ownerPasswordMin}} caractères min.)",
+        "false → true après validation"
+      ],
+      "note": "WRITE_ENABLED est un champ texte. Ne partage jamais les valeurs des secrets."
+    }
+  },
+  "mcp": {
+    "rows": [
+      "Type",
+      "URL",
+      "Authentication / Authentification",
+      "Client ID"
+    ],
+    "en": {
+      "title": "ChatGPT: connect your remote server",
+      "example": "Diagram only — fictitious values, no personal data",
+      "values": [
+        "Streamable HTTP",
+        "https://YOUR-SERVICE…/mcp",
+        "OAuth",
+        "zotero-cloud-personal"
+      ],
+      "note": "Use your own URL. STDIO does not apply to this setup."
+    },
+    "fr": {
+      "title": "ChatGPT : connexion à ton serveur distant",
+      "example": "Exemple schématique — valeurs fictives, aucune donnée personnelle",
+      "values": [
+        "Diffusion HTTP en continu",
+        "https://YOUR-SERVICE…/mcp",
+        "OAuth",
+        "zotero-cloud-personal"
+      ],
+      "note": "Chaque personne utilise sa propre URL. Le mode STDIO ne convient pas ici."
+    }
+  }
+}

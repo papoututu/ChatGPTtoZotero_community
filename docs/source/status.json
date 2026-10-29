@@ -1,0 +1,15 @@
+{
+  "id": "status",
+  "outputs": {
+    "en": "docs/status.md",
+    "fr": "docs/status.fr.md"
+  },
+  "sections": [
+    {
+      "id": "content",
+      "en": "# Status — community preparation, 29 October 2026\n\nThe first personal instance was reported working for reading and writing by its user. Automated tests use fictitious credentials. The OAuth flow was also reproduced in Chromium with a simulated callback.\n\nDistribution to others is prepared in this branch and still needs testing on a new instance. No public release, shared service or spending has been undertaken. The existing personal instance and plugin are not replaced.\n\nNext checks are listed in [publication.md]({{doc:publication}}) and the [first-tester protocol]({{doc:testers}}). Publication in the public ChatGPT directory would be a separate stage.",
+      "fr": "# État — préparation communautaire du 29 octobre 2026\n\nLa première instance personnelle a été déclarée fonctionnelle en lecture et en écriture par son utilisateur. Les tests automatisés utilisent des identifiants fictifs. Le parcours OAuth a aussi été reproduit dans Chromium avec un callback simulé.\n\nLa distribution pour d’autres personnes est préparée dans cette branche : elle reste à tester sur une instance neuve. Aucune publication publique, aucun service partagé et aucune dépense engagés. L’instance et le plugin personnels existants ne sont pas remplacés.\n\nLes prochaines vérifications sont dans [publication.md]({{doc:publication}}) et le [protocole premier testeur]({{doc:testers}}). La publication dans le répertoire public ChatGPT serait une phase distincte.",
+      "reviewedPair": "3563be8d582e0c0edf93138470aa11e6b120330a6ee60bcc0a41818a97305042"
+    }
+  ]
+}
